@@ -1,5 +1,6 @@
 name: Submit dependencies to GitHub Dependency Graph
 on:
+  workflow_dispatch:
   push:
     branches:
       - trunk
